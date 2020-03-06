@@ -1,0 +1,43 @@
+body{
+    background-color:rgba(158, 158, 252, 0.6);
+    margin:10px;
+}
+h1{
+  text-align:center;
+  color:#ff1122;
+  text-shadow: 5px 3px 3px rgb(100,99,101);
+  font-family: Blipp0,fantasy;
+  font-size: 3em;
+  
+  
+}
+#screen{
+     font-size: 10em;
+     text-align: center;
+    color:gold;
+    border: 4px double red;
+    border-radius: 20% 0% 20% 0%;
+    position: relative;
+    height: 50%;
+    font-family: florence,cursive;
+    background-color: #000000;
+    margin-top: 10px;
+    box-shadow: 6px 6px #888888;
+
+}
+button{
+    border: 1px solid black;
+    width:10%;
+    height: 30px;
+    border-radius: 20%;
+    font-size: 1em;
+    margin:20px;
+    position: relative;
+    left:25%;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{transform: scale(1.5,1.5);
+
+}
